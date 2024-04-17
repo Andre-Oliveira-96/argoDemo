@@ -8,7 +8,7 @@ spec:
     namespace: kong
     server: "https://kubernetes.default.svc"
   project: default
-source:
-  path: charts/kong
-  repoURL: "https://github.com/Andre-Oliveira-96/gw-yamls.git"
-  targetRevision: HEAD
+  source:
+    path: charts/kong
+    repoURL: "https://github.com/Andre-Oliveira-96/gw-yamls.git"
+    targetRevision: HEAD
